@@ -13,7 +13,7 @@ MASTER_FILE = "Master_Data.xlsx"  # Contains Outlet, OS/OMTL emails, PM Name/Ema
 
 # Email config
 EMAIL_ADDRESS = "your_email@gmail.com"
-EMAIL_PASSWORD = "your_app_password"  # Gmail App Password
+EMAIL_PASSWORD = "huyticknixqijeyv"  # Gmail App Password
 
 app = Flask(__name__)
 
@@ -249,3 +249,4 @@ def reject(request_id):
 # Run server
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
+
